@@ -6,6 +6,8 @@ authors = ["Danilo Costa <danilo.v.barbosa@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Django = "^3.2.3"
+psycopg2-binary = "^2.8.6"
 
 [tool.poetry.dev-dependencies]
 
