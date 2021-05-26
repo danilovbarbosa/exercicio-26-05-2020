@@ -3,6 +3,9 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('categorias', views.categorias, name='categorias')
-    
+    path('form-produto', views.create_produto, name='create_produto'),
+    path('form-produto', views.update_produto, name='update_produto'),
+    path('categorias', views.categorias, name='categorias'),
+       
+
 ]
