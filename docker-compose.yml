@@ -34,7 +34,7 @@ services:
             bd: 
                 condition: service_healthy
         networks: 
-            - rede_products
+            - backend
         restart: always            
 
 
