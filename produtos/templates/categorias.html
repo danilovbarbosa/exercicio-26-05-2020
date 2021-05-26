@@ -3,6 +3,10 @@
 {% block title %}Categorias{% endblock %}
 {% block content %}
     <h1>Categorias</h1>
-
+    <ul>
+        <li><a href="{% url 'create_categorias' %}" > Criar categorias </a></li>
+        <li><a href="{% url 'update_categorias' %}" > Atualizar categorias </a></li>
+        <li><a href="{% url 'index' %}" > Listar produto </a></li>
+    </ul>
 {% endblock content %}
 

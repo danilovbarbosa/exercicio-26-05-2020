@@ -2,7 +2,11 @@
 {% block title %}Produto{% endblock %}
 {% block content %}
     <h1>Produto</h1>
-
+    <ul>
+      <li><a href="{% url 'create_produto' %}" > Criar produto </a></li>
+      <li><a href="{% url 'update_produto' %}" > Atualizar produto </a></li>
+      <li><a href="{% url 'categorias' %}" > Listar categorias </a></li>
+    <ul>
 {% endblock content %}
 
 
