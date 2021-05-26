@@ -1,4 +1,8 @@
 from django.urls import path
+
+from django.conf import settings
+from django.conf.urls.static import static
+
 from . import views
 
 urlpatterns = [
@@ -9,4 +13,4 @@ urlpatterns = [
     path('form-categorias', views.create_categorias, name='create_categorias'),
     path('form-categorias', views.update_categorias, name='update_categorias'),   
 
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
