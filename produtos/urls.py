@@ -6,6 +6,7 @@ urlpatterns = [
     path('form-produto', views.create_produto, name='create_produto'),
     path('form-produto', views.update_produto, name='update_produto'),
     path('categorias', views.categorias, name='categorias'),
-       
+    path('form-categorias', views.create_categorias, name='create_categorias'),
+    path('form-categorias', views.update_categorias, name='update_categorias'),   
 
 ]

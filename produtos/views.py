@@ -18,3 +18,13 @@ def update_produto(request):
 def categorias(request):
     context = {}
     return render(request, 'categorias.html', context=context)
+
+
+def create_categorias(request):
+    context = {}
+    return render(request, 'form-categorias.html', context=context)
+
+
+def update_categorias(request):
+    context = {}
+    return render(request, 'form-categorias.html', context=context)
